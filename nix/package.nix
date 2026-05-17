@@ -2,13 +2,13 @@
 
 rustPlatform.buildRustPackage rec {
   pname = "metropolis";
-  version = "0.1.2";
+  version = "0.1.3";
 
   src = fetchFromGitHub {
     owner = "5c0";
     repo = "metropolis";
     rev = "v${version}";
-    hash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="; # Placeholder
+    hash = "sha256-h7WyxeM7Z0lhyO8WgNwfyxxtGS0w+qUhE/l1wMeqgHI=";
   };
 
   cargoHash = "sha256-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA="; # Placeholder
